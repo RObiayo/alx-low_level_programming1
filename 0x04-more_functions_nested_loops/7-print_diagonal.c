@@ -1,8 +1,9 @@
-#include "maon.h"
+#include "main.h"
 
 /**
  * print_diagonal - Draws diagonal lines according to parameter
  * @n: The number of times to print diagonal lines
+ * Return: empty
  */
 void print_diagonal(int n)
 {
@@ -20,8 +21,9 @@ void print_diagonal(int n)
 	{
 	_putchar(32);
 	}
-	_putchar(92);
+	_putcahr(92);
 	_putchar('\n');
 	}
 	}
 }
+
