@@ -22,4 +22,4 @@ void _putchar(char);
 
 void print_number(int n);
 
-void fizz_buzz(void);
+void Fizz_Buzz(void);
