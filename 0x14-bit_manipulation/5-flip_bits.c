@@ -8,13 +8,13 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int diff - n ^ m;
 	unsigned int count = 0;
+	unsigned long int xor_value = n ^ m;
 
-	while (diff)
+	while (xor_value != 0)
 	{
-		count += diff & 1;
-		diff >>= 1;
+		count += xor_value & 1;
+		xor_value >>= 1;
 	}
 	return (count);
 }
